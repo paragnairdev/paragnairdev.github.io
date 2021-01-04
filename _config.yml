@@ -1,26 +1,28 @@
 # Site
-name: "{Dot.Perform}"
-title: "Dot.Perform"
-description: "Love what you do and that love will take you places."
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
-baseurl: /mediumish-theme-jekyll
+name: "{{knowledge.imparted}}"
+title: "Knowledge Imparted"
+description: "Let me share my experiences and lets learn from My Mistakes."
+logo: 'assets/images/logo_1280x1024_72dpi.png'
+favicon: 'assets/images/logo_1280x1024_72dpi.png'
+baseurl: ''
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+# mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
+show_featured: false
 
 # Authors
 authors:
-  sal:
+  wiz:
     name: Parag Nair
     display_name: Parag
+    avatar: 'assets/images/avatar-wiz.png'
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: parag.nair.dev@gmail.com
     web: https://blog.paragnair.net
     twitter: https://twitter.com/paragnairdotnet
-    description: "A technologist."
+    description: "Full-Stack Cloud Engineer (AWS Certified), a Technologist, solving business problems with a Cloud First approach"
   john:
     name: John
     display_name: John    

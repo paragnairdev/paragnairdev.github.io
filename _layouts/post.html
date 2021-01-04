@@ -11,8 +11,11 @@ post_class: post-template
     <div class="row">
 
         <!-- Post Share -->
+        
         <div class="col-md-2 pl-0">
+            {% if page.sharable != false %}
             {% include share.html %}
+            {% endif %}
         </div>
 
         <!-- Post -->
