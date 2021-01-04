@@ -3,7 +3,6 @@ layout: post
 title:  "New Year Resolution (2021)"
 author: wiz
 categories: [ experience ]
-tags: [ covid ]
 image: assets/images/new_resolution_2021.jpg
 comments: false
 ---

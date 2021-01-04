@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Knowledge Imparted</title>
-    <description>Let me share my experiences and lets learn from My Mistakes.</description>
+    <description>Let me share my experiences and I will let you decide if you would want to learn from it or just have a laugh.</description>
     <link>http://0.0.0.0:4000/</link>
     <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 03 Jan 2021 19:19:37 -0600</pubDate>
-    <lastBuildDate>Sun, 03 Jan 2021 19:19:37 -0600</lastBuildDate>
+    <pubDate>Sun, 03 Jan 2021 20:28:39 -0600</pubDate>
+    <lastBuildDate>Sun, 03 Jan 2021 20:28:39 -0600</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -26,8 +26,6 @@
         <pubDate>Sun, 03 Jan 2021 00:00:00 -0600</pubDate>
         <link>http://0.0.0.0:4000/new-year-resolution/</link>
         <guid isPermaLink="true">http://0.0.0.0:4000/new-year-resolution/</guid>
-        
-        <category>covid</category>
         
         
         <category>experience</category>

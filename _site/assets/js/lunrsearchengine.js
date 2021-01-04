@@ -18,7 +18,7 @@ var documents = [{
     "id": 3,
     "url": "http://0.0.0.0:4000/",
     "title": "Home",
-    "body": "      All Stories:                                                                                                     New Year Resolution (2021)              :       So here I am at the start of year 2021, which I assume a lot were really looking forward to, especially how 2020 went by with the Pandemic driving everyone. . . :                                                                               Parag                03 Jan 2021                                            "
+    "body": "      All Posts:                                                                                                     New Year Resolution (2021)              :       So here I am at the start of year 2021, which I assume a lot were really looking forward to, especially how 2020 went by with the Pandemic driving everyone. . . :                                                                               Parag                03 Jan 2021                                            "
     }, {
     "id": 4,
     "url": "http://0.0.0.0:4000/robots.txt",

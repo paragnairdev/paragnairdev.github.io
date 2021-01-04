@@ -336,3 +336,14 @@ pre.lineno {
 
 .c-rating--big {
   font-size: 150%; }
+
+.brand.fa-twitter {
+  color: #1DA1F2; }
+.brand.fa-facebook-f {
+  color: #4267B2; }
+.brand.fa-linkedin-in {
+  color: #2867B2; }
+
+.btn.follow.twitter {
+  border-color: #1DA1F2;
+  color: #1DA1F2; }
