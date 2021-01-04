@@ -1,7 +1,7 @@
 # Site
 name: "{{knowledge.imparted}}"
 title: "Knowledge Imparted"
-description: "Let me share my experiences and lets learn from My Mistakes."
+description: "Let me share my experiences and I will let you decide if you would want to learn from it or just have a laugh."
 logo: 'assets/images/logo_1280x1024_72dpi.png'
 favicon: 'assets/images/logo_1280x1024_72dpi.png'
 baseurl: ''
@@ -18,20 +18,19 @@ authors:
     name: Parag Nair
     display_name: Parag
     avatar: 'assets/images/avatar-wiz.png'
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: parag.nair.dev@gmail.com
     web: https://blog.paragnair.net
     twitter: https://twitter.com/paragnairdotnet
     description: "Full-Stack Cloud Engineer (AWS Certified), a Technologist, solving business problems with a Cloud First approach"
-  john:
-    name: John
-    display_name: John    
-    avatar: 'assets/images/avatar.png'
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
+  # john:
+  #   name: John
+  #   display_name: John    
+  #   avatar: 'assets/images/avatar.png'
+  #   gravatar: b1cc14991db7a456fcd761680bbc8f81
+  #   email: wowthemesnet@gmail.com
+  #   web: https://www.wowthemes.net
+  #   twitter: https://twitter.com/wowthemesnet
+  #   description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
 
 # Plugins
 plugins:

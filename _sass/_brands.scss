@@ -1,0 +1,13 @@
+@import '_variables.scss';
+
+.brand {
+  &.fa-twitter {
+    color: $brand-color-twitter;
+  }
+  &.fa-facebook-f {
+    color: $brand-color-facebook;
+  }
+  &.fa-linkedin-in {
+    color: $brand-color-linkedin;
+  }
+}

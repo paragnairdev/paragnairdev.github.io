@@ -1,0 +1,10 @@
+@import '_variables.scss';
+
+.btn {
+	&.follow {
+		&.twitter {
+			border-color: $brand-color-twitter;
+			color: $brand-color-twitter;
+		}
+	}
+}
