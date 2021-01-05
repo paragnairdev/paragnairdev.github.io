@@ -1,6 +1,6 @@
 # My blog hosted with github pages
 
-This repository has my blog content and is hosted by github pages. This uses Jekyll.
+This repository has my blog content and is hosted on github pages. This uses Jekyll.
 
 
 ### Copyright
