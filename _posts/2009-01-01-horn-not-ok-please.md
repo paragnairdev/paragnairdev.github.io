@@ -6,7 +6,7 @@ image:  horn-not-ok-please.jpg
 tags: Mumbai
 ---
 
-[Mumbai](https://en.wikipedia.org/wiki/Mumbai) with a population of over 12800000 has drivers and riders on the streets with just one thought - "When in doubt, HONK!!". For some reason people think honking will solve all the traffic problems. Suddenly the traffic will clear or maybe the cars will just disappear. The most frustrating times are those when you are at a traffic light with the red light on and an auto rickshaw will keep honking right behind you and you wonder, "Is this rickshaw driver blind or are you halucinating a red light for a green one?"
+[Mumbai](https://en.wikipedia.org/wiki/Mumbai) with a population of over 12.8M has drivers and riders on the streets with just one thought - "When in doubt, HONK!!". For some reason people think honking will solve all the traffic problems. Suddenly the traffic will clear or maybe the cars will just disappear. The most frustrating times are those when you are at a traffic light with the red light on and an auto rickshaw will keep honking right behind you and you wonder, "Is this rickshaw driver blind or are you halucinating a red light for a green one?"
 
 50% of the stress is experienced by a commuter while commuting as every single person on the street is fighting against time. People going to work want to reach work, finish it, leave and come back home so they can relax. Most of the frustration is experienced while travelling either standing in the bus or train or if you are driving, you spend hours waiting in traffic where it seems honking is the only solution to get to your destination quickly. Maybe people enjoy irritating others by honking or they just love the sound of the horn. Or simply, they are trying to show off their vehicle horn.
 
