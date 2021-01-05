@@ -1,6 +1,6 @@
 #-------------------------------
 # General Site Settings
-title: Parag
+title: My Experiences - ParagNair.net
 logo: logo.png # You can add own logo.
 description: This is my blog where I share my experiences
 default-image: bg_fullsize_grass.jpg
@@ -11,7 +11,7 @@ author:
   name: Parag Nair
   image: avatar-wiz.png
   say-hello: Hello, I’m <strong>Parag Nair</strong>
-  bio: A Full-Stack Cloud Engineer (AWS Certified), a Technologist, solving business problems with a Cloud First approach.
+  bio: A Full-Stack Cloud Engineer (AWS Certified), a Technologist, solving business problems with a Cloud First <i class="ion-ios-cloud-done"></i> approach.
 
 
 #-------------------------------
@@ -20,7 +20,7 @@ twitter: https://twitter.com/paragnair # Add your Twitter handle
 facebook: https://facebook.com/paragnair # Add your Facebook handle
 # dribbble: https://dribbble.com/ # Add your Dribbble handle
 instagram: https://instagram.com/paragnair # Add your Instagram handle
-# pinterest: https://pinterest.com/ # Add your Pinterest handle
+pinterest: https://pinterest.com/paragnair # Add your Pinterest handle
 
 
 #-------------------------------
