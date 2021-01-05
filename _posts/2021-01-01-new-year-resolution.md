@@ -2,7 +2,7 @@
 layout: post
 title:  New Year Resolution (2021)
 date:   2021-01-01 15:01:35 +0000
-image:  new_resolution_2021.jpg
+image:  new-year-resolution-2021.jpg
 tags:   Experience
 ---
 
