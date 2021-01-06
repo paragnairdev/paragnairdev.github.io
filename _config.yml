@@ -10,6 +10,7 @@ plugins:
   - jekyll-sitemap
   - jekyll/tagging
   - jekyll-avatar
+  - jekyll-target-blank
 
 paginate: 5
 paginate_path: "/page/:num"
