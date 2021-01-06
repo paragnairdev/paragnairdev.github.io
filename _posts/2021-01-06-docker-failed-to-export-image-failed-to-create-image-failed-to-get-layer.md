@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Docker: failed to export image"
-date:   2021-01-01 15:01:35 +0000
+date:   2021-01-06 20:00:00 +0000
 image:  docker-unsplash.jpg
 tags:   Tech Docker Troubleshoot AWS
 ---
