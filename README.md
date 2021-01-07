@@ -3,7 +3,7 @@
 This repository has my blog content and is hosted on github pages. This uses Jekyll.
 
 ## Credits
-Build on top of [Zolan Jekyll template](http://jekyllthemes.org/themes/zolan/)
+Built on top of [Zolan Jekyll template](http://jekyllthemes.org/themes/zolan/)
 
 
 ### Copyright
