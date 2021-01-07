@@ -92,7 +92,7 @@ layout: default
     <div class="prev">
       <a class="post__nav__image" href="{{ site.baseurl }}{{page.previous.url}}" style="background-image: url({{site.baseurl}}/images/{{page.previous.image}})"></a>
       <h2 class="post__nav__title">
-        <i class="ion ion-md-arrow-back"></i>
+        <a href="{{ site.baseurl }}{{page.previous.url}}"><i class="ion ion-md-arrow-back"></i></a>
         <a href="{{ site.baseurl }}{{page.previous.url}}">{{page.previous.title}}</a>
       </h2>
       <p class="prev__excerpt">
@@ -111,7 +111,7 @@ layout: default
       </a>
       <h2 class="post__nav__title">
         <a href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}}</a>
-        <i class="ion ion-md-arrow-forward"></i>
+        <a href="{{ site.baseurl }}{{page.next.url}}"><i class="ion ion-md-arrow-forward"></i></a>
       </h2>
       <p class="next__excerpt">
         {% if page.next.description %}

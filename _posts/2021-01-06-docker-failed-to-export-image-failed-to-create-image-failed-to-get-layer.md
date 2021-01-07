@@ -4,6 +4,7 @@ title:  "Docker: failed to export/create/get image"
 date:   2021-01-06 20:00:00 +0000
 image:  docker-unsplash.jpg
 tags:   Tech Docker Troubleshoot AWS
+category: Technical
 ---
 
 Docker build failed with error `failed to export image: failed to create image: failed to get layer`. Here is how I solved it.
