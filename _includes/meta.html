@@ -8,5 +8,8 @@
 {% if page.image %}
 <meta property='og:image' content='{{ site.url }}/images/{{ page.image }}'/>
 {% endif %}
-<meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
-<meta property="og:site_name" content="{{ site.data.settings.title }}">
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}" />
+<meta property="og:site_name" content="{{ site.data.settings.title }}" />
+{% if page.excerpt %}
+<meta property="og:description" content="{{ page.excerpt | strip_html }}" />
+{% endif %}
