@@ -34,7 +34,12 @@ layout: default
   {% assign no-image = nil %}
   {% if page.image %}
     <div class="post__head">
+      {% if page.image contains "://" %}
+      <div class="post-image" style="background-image: url({{page.image}})"></div>
+      {% else %}
       <div class="post-image" style="background-image: url({{site.baseurl}}/images/{{page.image}})"></div>
+      {% endif %}
+      
     </div>
   {% else %}
     <div class="post__head">
