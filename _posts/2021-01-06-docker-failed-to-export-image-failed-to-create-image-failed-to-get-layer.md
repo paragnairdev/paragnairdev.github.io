@@ -106,5 +106,5 @@ Finally, my reccomendation would be to move to [multi-stage builds](https://docs
 
 You go through tireless hours of debugging something, but once you have found a solution, its hours well invested, you have learned something new.
 
-> Live as if you were to die tomorrow. Learn as if you were to live forever. - Mahatma Gandhi
+> "Live as if you were to die tomorrow. Learn as if you were to live forever." <cite>- Mahatma Gandhi</cite>
 

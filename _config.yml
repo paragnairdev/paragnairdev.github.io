@@ -8,6 +8,7 @@ permalink: pretty
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-feed
   - jekyll/tagging
   - jekyll-avatar
   - jekyll-target-blank

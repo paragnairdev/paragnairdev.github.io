@@ -9,9 +9,35 @@ Hi, my name is Parag Nair. Software Engineer with years of experience in Microso
 
 ***
 
-#### Principal Engineer, Onalytica Limited
+## Key Roles
+
+Here are some of the companies I worked for, where I enjoyed working the most, as there was a lot to learn and I was fortunate enough to work with some
+smart people. It is not a coincidence that I have had the best managers at these companies as well.
+
+#### Principal Engineer @ Onalytica Limited
 <small>Since 2017</small>
 
 Founded in 2009 and backed by Bebo founders Michael and Paul Birch, Onalytica is an award-winning influencer marketing software platform that connects brands with topical influencer communities and helps them to scale and structure influencer programs globally.
 
-Influencer Marketing is still an emerging category with brands and influencers both figuring out how to best work together for mutual benefit in an environment with no rules. Onalytica provides the software, professional services and consultancy to help clients run successful influencer marketing programs and integrate influencer marketing into their wider social advocacy strategy.
+I joined in as a Senior Software Engineer to help their technical department to work on the proprietary influencer marketing platform where I have gained immense amount of experience with AWS and now moved on to a Principal Software Engineer role where I have been involved in architectural decision while staying hands-on. The team is dynamic and robust with smart and hard-working individuals who can deal with any system within the Onalytica ecosystem.
+
+#### Technical Lead @ Alpharooms.com
+<small>2015-2017</small>
+
+A high-traffic, award winning holidays booking site, saving people money in all the best places. In 2016 it won Best National Travel Retailer, Best Online Travel Agency, Best Hotel Booking Website & Best Hotel Booking Website. Modern-day Alpharooms is based in London and sent away over 500,000 travellers in 2016 alone. But our roots began in back Sheffield 18 years ago as a humble local travel agent.
+
+I came on board as a Senior Software Engineer to help them enhance user experience and provide technical guidance. Within a few months, I was happy to take on more responsibilities and move to a Technical Lead position and steer the technical direction & software architecture.
+
+### Senior Software Engineer @ LolaGrove
+<small>2010-2014</small>
+
+LolaGrove helps companies cleanse and manage their business-critical data more securely and effectively. enables companies to move customer data safely from acquisition point to database and gauges whether it is of sufficient quality in terms of value to the business. It can also facilitate and support inter-system data transactions, making sure each one is evidenced by documentation.
+
+This was the first company I worked for, when I moved to London back in 2010. I was quite nervous to start as I did not know what to expect, but the wonderful people working in this company made me so comfortable and more importantly trusted my abilities. I started off with the enhancement of their lead generation platform and soon moved on to being a key member of planning and implementation of new technologies to make the system robust, secure and performance oriented. This was probably the firs time I had worked on a high throughput trading platform. The experience I got here was invaluable and has taught me a lot.
+
+### Team Lead @ Iventa Software Services
+<small>2005-2009</small>
+
+An Ecommerce CMS platform which once powered the ecommerce system for high-profile artists like Metallica & Kid Rock which was then acquired by Commerce Planet in 2007. 
+
+There was a time when I was working for a top fortune 500 company with complete job security and came across an opportunity at Iventa. I realized I was not learning much where I am and took the leap of faith and joined Iventa. I think that was the best decision I ever made at that time. The company was a startup in India and my employee number was 00003. I was the 3rd Employee of the company. I started as a developer and got exposure to so much tech and experience, it was invaluable. I have to thank 2 people for that, [Shaheen Rampurawala](https://www.linkedin.com/in/shaheenr/) who gave me this opportunity and [Jameson Stafford](https://www.linkedin.com/in/jjstafford/), who went out of his way to get me to work in Los Angeles. Those 4 years were definitely golden for me. I will be forever indebted to them.

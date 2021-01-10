@@ -11,7 +11,9 @@ author:
   name: Parag Nair
   image: avatar-wiz.png
   say-hello: Hello, I’m <strong>Parag Nair</strong>
-  bio: A Full-Stack Cloud Engineer (AWS Certified), a Technologist, solving business problems with a Cloud First <i class="ion-ios-cloud-done"></i> approach.
+  bio: >-
+    A Full-Stack Cloud Engineer (AWS Certified), a Technologist, solving business problems with a Cloud First <i class="ion-ios-cloud-done"></i> approach.
+    This blog is a list of my experiences in general, technical and professional world. This is an attempt to impart knowledge.
 
 
 #-------------------------------
@@ -36,7 +38,7 @@ instagram-profile: artemsheludko_ # Add instagram username
 
 #-------------------------------
 # Google Analytics
-google-analytics: # Add your identifier. For example UA-99631805-1.
+google-analytics: UA-186958206-1 # Add your identifier. For example UA-99631805-1.
 
 
 #-------------------------------

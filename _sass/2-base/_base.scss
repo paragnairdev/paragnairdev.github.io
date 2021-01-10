@@ -67,12 +67,30 @@ h6 {
 }
 
 blockquote {
-  margin: 30px -100px;
+  margin: 30px 20px;
   font-size: 28px;
   line-height: 45px;
   letter-spacing: 0.5px;
-  font-style: normal;
-  text-align: center;
+  font-style: italic;
+  text-align: left;
+  border-left: 5px solid #ffd300;
+  padding-left: 1.25em;
+
+  cite:last-child {
+    margin-bottom: 0;
+  }
+
+  cite {
+    color: #a1a1a1;
+    display: block;
+    font-size: 0.66667em;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.15em;
+    margin-top: 1em;
+    text-transform: uppercase;
+    text-align: right;
+  }
   
   @media only screen and (max-width: $tablet) {
     margin: 30px 0;
