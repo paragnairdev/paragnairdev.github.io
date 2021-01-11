@@ -10,7 +10,7 @@ featured: true
 hidden: true
 ---
 
-Have you come across the statement "Let's reinvent the wheel"? Yes, we definitely know what it means.. but as a Developer, you want to reinvent it, don't you?
+Have you come across the statement "Don't reinvent the wheel"? Yes, we definitely know what it means, but as a Developer, you WANT to reinvent it, don't you?
 
 A word of advice, when your Developer brain says "We can build this", just take some time to assess if, what you want to build adds any value over what is already tried and tested.
 
