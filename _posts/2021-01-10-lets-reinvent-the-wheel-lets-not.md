@@ -20,7 +20,7 @@ Then there was this voice across the table - "Lets look at the documentation and
 
 My next 15 mins were spent trying to convince the management that we have a strong development team with qualified engineers who can build this system. Everyone in the room listened to me patiently and acknowledged my enthusiasm and the trust in the development team.
 
-The next day I had a long conversation with Thomas who tried to explain me the the difficulties and time-constraints building a system which already exists, test it, fix issues and go through an iteration process. My developer brain kept refusing to understand because a developer JUST WANTS TO BUILD IT.
+The next day I had a long conversation with Thomas who tried to explain me the the difficulties and time-constraints building a system which already exists, test it, fix issues and go through an iteration process. My developer brain kept refusing to understand because a developer <strong>JUST WANTS TO BUILD IT</strong>.
 
 Fast-forward 5 years down the line, I came across situations where the team decided to build things rather than choosing an existing solution and then spend days trying to fix and un-fix stuff. The lessons I have learnt over the years have been:
 
