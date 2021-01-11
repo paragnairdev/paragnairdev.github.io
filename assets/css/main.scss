@@ -1,0 +1,28 @@
+---
+# Add a comment to make this file sass-y.
+# Change this file for any custom CSS.
+---
+
+/* We need to add display:inline in order to align the '>>' of the 'read more' link */
+.post-excerpt p {
+	display:inline;
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import '0-settings/variables';
+
+/* ########## 3-Modules ########## */
+
+// Syntax highlighting
+@import '3-modules/syntax';
+
+// Star ratings
+@import '3-modules/starsnonscss';
+
+/* ########## 4-Layouts ########## */
+
+// 4.1 Page
+@import '4-layouts/page';
+
+// 4.2 Post
+@import '4-layouts/post';

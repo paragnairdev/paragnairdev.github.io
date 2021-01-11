@@ -2,9 +2,12 @@
 layout: post
 title:  New Year Resolution (2021)
 date:   2021-01-01 15:01:35 +0000
-image:  new-year-resolution-2021.jpg
+image:  assets/images/new-year-resolution-2021.jpg
 tags:   Experience
 category: General
+author: wiz
+featured: true
+hidden: true
 ---
 
 So here I am at the start of year 2021, which I assume a lot were really looking forward to, especially how 2020 went by with the Pandemic driving everyone to stay indoors as long as they can.

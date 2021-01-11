@@ -2,9 +2,12 @@
 layout: post
 title:  "Docker: failed to export/create/get image"
 date:   2021-01-06 20:00:00 +0000
-image:  docker-unsplash.jpg
+image:  assets/images/docker-unsplash.jpg
 tags:   Tech Docker Troubleshoot AWS
 category: Technical
+author: wiz
+featured: true
+hidden: true
 ---
 
 Docker build failed with error `failed to export image: failed to create image: failed to get layer`. Here is how I solved it.
@@ -29,7 +32,7 @@ We use [AWS](https://aws.amazon.com/) as our cloud provider, hence it makes good
 Here is how our dockerfile looked
 
 ## Dockerfile
-{% highlight yaml %}
+```yaml
 FROM mcr.microsoft.com/dotnet/core/sdk:2.1
 
 WORKDIR /app
@@ -46,14 +49,14 @@ COPY NuGet.config Foo.Client/. current/
 
 WORKDIR current
 RUN dotnet restore && dotnet publish -c Release -o out
-{% endhighlight %}
+```
 
 Like a religious developer you have to ask the Expert.. namely Google which will then direct you to the Real Expert.. namely [StackOverflow](https://stackoverflow.com/). When you search for that error message you will most likely come across [this post](https://stackoverflow.com/questions/51115856/docker-failed-to-export-image-failed-to-create-image-failed-to-get-layer) where some suggested fix is to write a `Run true` statement before each `Copy` statement in your dockerfile. So we tried that and still no success. 
 
 After crawling through numerous forums I said to myself "Am I looking at the wrong place?" Lets see the commit history on that repository and see what changes were made. I noticed, we had changed the docker build instance from `aws/codebuild/docker:1.12.1` to `aws/codebuild/docker:17.09.0` which gave an indication that something in our dockerfile was OK in `1.12.1` but `17.09.0` did not like it anymore. If you take a closer look at our [Dockerfile](#dockerfile), you will notice though it is not [multi-stage build](https://docs.docker.com/develop/develop-images/multistage-build/), we are still running tests first and then creating a release in the SAME CONTAINER. Let me walk you through the file
 
 First we copy all the assets to the `app` folder and run tests
-{% highlight yaml %}
+```yaml
 FROM mcr.microsoft.com/dotnet/core/sdk:2.1
 
 WORKDIR /app
@@ -63,10 +66,10 @@ COPY NuGet.config Foo.Common/. Foo.Common/
 RUN dotnet restore Foo.Common.Tests && dotnet test && dotnet restore Foo.Client.Tests && dotnet test Foo.Client.Tests/Foo.Client.Tests.csproj
 
 ...
-{% endhighlight %}
+```
 
 Then we copy the assets excluding tests to the same folder
-{% highlight yaml %}
+```yaml
 ...
 
 WORKDIR /app
@@ -75,13 +78,13 @@ COPY NuGet.config Foo.Client/. current/
 
 WORKDIR current
 RUN dotnet restore && dotnet publish -c Release -o out
-{% endhighlight %}
+```
 
 In theory, the same files have been copied over again and this I assume is causing that error. In our case the fix was just to make sure the assets were copied to a different folder for tests and different folder for the release build. Here is the fixed dockerfile
 
 ## Updated Dockerfile
 
-{% highlight yaml %}
+```yaml
 FROM mcr.microsoft.com/dotnet/core/sdk:2.1
 
 WORKDIR /tests
@@ -98,7 +101,7 @@ COPY NuGet.config Foo.Client/. current/
 
 WORKDIR current
 RUN dotnet restore && dotnet publish -c Release -o out
-{% endhighlight %}
+```
 
 The above solution worked for us but in your case that error could have been a result of something else in your dockerfile. As you can see, that error is so general that its quite difficult to figure out the exact reason. Hey Docker, don't worry, no love lost here, still Love You.
 
@@ -106,5 +109,5 @@ Finally, my reccomendation would be to move to [multi-stage builds](https://docs
 
 You go through tireless hours of debugging something, but once you have found a solution, its hours well invested, you have learned something new.
 
-> "Live as if you were to die tomorrow. Learn as if you were to live forever." <cite>- Mahatma Gandhi</cite>
+> Live as if you were to die tomorrow. Learn as if you were to live forever. <cite>- Mahatma Gandhi</cite>
 
