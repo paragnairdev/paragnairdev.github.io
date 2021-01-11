@@ -5,7 +5,7 @@ date:   2009-01-01 21:45:00 +0530
 image:  assets/images/horn-not-ok-please.jpg
 tags: Mumbai
 category: General
-author: wiz
+author: paragnair
 ---
 
 [Mumbai](https://en.wikipedia.org/wiki/Mumbai) with a population of over 12.8M has drivers and riders on the streets with just one thought - "When in doubt, HONK!!". For some reason people think honking will solve all the traffic problems. Suddenly the traffic will clear or maybe the cars will just disappear. The most frustrating times are those when you are at a traffic light with the red light on and an auto rickshaw will keep honking right behind you and you wonder, "Is this rickshaw driver blind or are you halucinating a red light for a green one?"

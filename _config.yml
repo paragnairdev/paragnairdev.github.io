@@ -15,14 +15,14 @@ permalink: /:title/
 
 # Authors
 authors:
-  wiz:
-    name: wiz
+  paragnair:
+    name: Parag Nair
     display_name: Parag
     avatar: 'assets/images/avatar-wiz.png'
     #gravatar: b1cc14991db7a456fcd761680bbc8f81
     email: parag.nair.dev@gmail.com
     web: https://blog.paragnair.net
-    twitter: https://twitter.com/paragnair
+    twitter: paragnair
     description: "A Full-Stack Cloud Engineer (AWS Certified), a Technologist, solving business problems with a Cloud First approach."
 
     # Plugins

@@ -5,7 +5,7 @@ date:   2021-01-10 20:00:00 +0000
 image:  "https://user-images.githubusercontent.com/1830246/103958486-05648880-5145-11eb-98b0-7b8e5727540a.jpg"
 tags:   Tech Development Planning
 category: General
-author: wiz
+author: paragnair
 featured: true
 hidden: true
 ---

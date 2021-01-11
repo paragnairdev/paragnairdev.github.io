@@ -5,7 +5,7 @@ date:   2021-01-06 20:00:00 +0000
 image:  assets/images/docker-unsplash.jpg
 tags:   Tech Docker Troubleshoot AWS
 category: Technical
-author: wiz
+author: paragnair
 featured: true
 hidden: true
 ---
