@@ -22,11 +22,9 @@ My next 15 mins were spent trying to convince the management that we have a stro
 
 The next day I had a long conversation with Thomas who tried to explain me the the difficulties and time-constraints building a system which already exists, test it, fix issues and go through an iteration process. My developer brain kept refusing to understand because a developer <strong>JUST WANTS TO BUILD IT</strong>.
 
-Fast-forward 5 years down the line, I came across situations where the team decided to build things rather than choosing an existing solution and then spend days trying to fix and un-fix stuff. 
-
 > Telling a programmer there's already a library to do X is like telling a songwriter there's already a song about love. <cite>- Pete Cordell</cite>
 
-The lessons I have learnt over the years have been:
+Fast-forward 5 years down the line, I came across situations where the team decided to build things rather than choosing an existing solution and then spend days trying to fix and un-fix stuff. The lessons I have learnt over the years have been:
 
 * If time is a constraint, its best to go for a pre-built tried & tested solution.
 * Your valuable development time is better spent on solving business problems than building a system just because you want to get your hands dirty in code & it sounds exciting.
