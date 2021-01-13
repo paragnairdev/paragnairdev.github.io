@@ -1,13 +1,14 @@
 ---
 layout: page
 title: Something about me
-image: assets/images/about-ski.jpeg
+image: assets/images/family-beach.jpg
 permalink: /about
 comments: false
+includeLinkedIn: true
 ---
 
 <div class="row">
-  <div class="col-md-12">
+  <div class="col-md-9">
 
   <p>
   Hi, my name is Parag Nair. I am a Software Engineer with years of experience in Microsoft technologies. My interest lies in developing cutting edge web applications with interactivity, leveraging latest technologies. When I am not coding, I am with family and a day over summer weekend is spent playing cricket, probably the only sport I religiously follow. I was born in Mumbai, India and now live in the UK.
@@ -77,5 +78,10 @@ comments: false
 
 
 
+  </div>
+
+  <div class="col-md-3">
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="paragnair"><a class="LI-simple-link" href='https://uk.linkedin.com/in/paragnair?trk=profile-badge'>Parag Nair</a></div>
   </div>
 </div>
