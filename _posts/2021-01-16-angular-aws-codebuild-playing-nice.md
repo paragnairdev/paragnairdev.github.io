@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Angular and AWS CodeBuild not playing nicely? Here is how to make them friends"
-date:   2021-01-10 20:00:00 +0000
-image:  assets/images/angular-codebuild/angular-codebuild-hero.png
+date:   2021-01-16 17:00:00 +0000
+image:  "https://user-images.githubusercontent.com/1830246/104824876-cffb2180-584d-11eb-9e9d-cbc646c9653d.png"
 tags:   Tech Development DevOps AWS Codebuild Angular
 category: Technical
 author: paragnair
@@ -99,14 +99,14 @@ artifacts:
 
 This buildspec file builds the image with the [Dockerfile](#dockerfile) and writes the name of the image to `image.json` file which is passed on to the next step in the pipeline which then deploys it to a ECS cluster.
 
-When CodeBuild tries to build the docker image you will be presented with this wonderful error:
+When CodeBuild tries to build the docker image, the tests start  but fail to complete.
 
-![Cannot load ChromeHeadlessNoSandbox](/assets/images/angular-codebuild/angular-codebuild-error.png)
+![Cannot load ChromeHeadlessNoSandbox](https://user-images.githubusercontent.com/1830246/104824893-02a51a00-584e-11eb-9380-35d89d287be2.png)
 
-It is saying `Cannot load browser "ChromeHeadlessNoSandbox": it is not registered! Perhaps you are missing some plugins?`. Well not very helpful is it? CodeBuild is upset but we are going to make it happy by asking our Angular App to make a change so CodeBuild plays nicely again.
+You will notice it is trying to start the browser but fails while complaining `Cannot start Chrome`. Well not very helpful is it? CodeBuild is upset but we are going to make it happy by asking our Angular App to make a few changes, so CodeBuild plays nicely again.
 
 ## Solution
-We need to change a few things on the Angular App configuration. 
+One important error to notice in that error log is `Running as root without --no-sandbox is not supported.` which will give you half of the answer. Lets fix it. We need to change a few things on the Angular App configuration. 
 
 ### Update Karma.conf.js
 
@@ -123,7 +123,7 @@ The `karma.conf.js` file on the root folder will have Chrome configured as brows
 }
 ```
 
-We need to update this to
+We need to update this to add a custom launcher. Change it to this:
 ```javascript
 {
   ...
@@ -150,7 +150,7 @@ We need to update this to
 ```
 
 What we are saying here is
-* We have one more browser which is a headless browser.
+* We have one more browser, which is a custom launcher, which in turn is a headless browser.
 * We want to increase all the timeouts so the process waits longer for all the tests to complete (If you have very limited tests, the defaults will be fine, but good to increase these anyway).
 * The new headless browser we have added should run in a `no-sandbox` mode.
 * We are specifying a remote debugging port as without this, Google Chrome exits immediately.
