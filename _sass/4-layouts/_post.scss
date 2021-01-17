@@ -29,3 +29,11 @@ blockquote {
     text-align: right;
   }
 }
+
+.before-post-tags {
+  display: inline-block;
+
+  ul.tags {
+    margin-bottom: 1rem;
+  }
+}

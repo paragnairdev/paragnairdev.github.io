@@ -6,8 +6,6 @@ image:  assets/images/docker-unsplash.jpg
 tags:   Tech Docker Troubleshoot AWS
 category: Technical
 author: paragnair
-featured: true
-hidden: true
 ---
 
 Docker build failed with error `failed to export image: failed to create image: failed to get layer`. Here is how I solved it.
