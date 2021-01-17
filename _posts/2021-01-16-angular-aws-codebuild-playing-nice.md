@@ -16,7 +16,7 @@ You are using AWS as your cloud platform and you decide to write your Website in
 
 Don't worry, lets make them play nicely together. When I came across this roadblock, I spent hours trying to get to the bottom of this, since the information was not clearly available, I thought I should share this fix with others to save someone going through the pain I went through.
 
-> When life puts rocks in your way, build something nice with them. <cite>Volksweisheit</cite>
+> When life puts rocks in your way, build something nice with them. <cite>- Volksweisheit</cite>
 
 ## Background
 

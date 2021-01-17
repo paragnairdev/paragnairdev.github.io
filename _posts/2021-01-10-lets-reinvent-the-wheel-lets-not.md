@@ -6,8 +6,6 @@ image:  "https://user-images.githubusercontent.com/1830246/103958486-05648880-51
 tags:   Tech Development Planning
 category: General
 author: paragnair
-featured: true
-hidden: true
 ---
 
 Have you come across the statement "Don't reinvent the wheel"? Yes, we definitely know what it means, but as a Developer, you WANT to reinvent it, don't you?
