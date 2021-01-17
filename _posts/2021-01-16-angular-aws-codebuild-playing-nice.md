@@ -3,9 +3,13 @@ layout: post
 title:  "Angular and AWS CodeBuild not playing nicely? Here is how to make them friends"
 date:   2021-01-16 17:00:00 +0000
 image:  "https://user-images.githubusercontent.com/1830246/104824876-cffb2180-584d-11eb-9e9d-cbc646c9653d.png"
+#featured-image: "https://user-images.githubusercontent.com/1830246/104846264-8e13bf00-58d1-11eb-9553-5b127b6cc0d2.png"
+featured-image: "https://user-images.githubusercontent.com/1830246/104846400-40e41d00-58d2-11eb-8c3b-45375dca7ef6.png"
 tags:   Tech Development DevOps AWS Codebuild Angular
 category: Technical
 author: paragnair
+featured: true
+hidden: true
 ---
 
 You are using AWS as your cloud platform and you decide to write your Website in Angular, everything works fine on your local machine. Great! Now it's time to integrate it in a CI/CD pipeline with AWS Codebuild to run tests (hope you are taking the TDD approach) and deploy it. Bummer! When you try to run tests on CodeBuild it's not happy :frowning: 
