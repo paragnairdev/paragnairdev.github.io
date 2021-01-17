@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  Associate multiple SSL certificates with a single load balancer within a CloudFormation template
-date:   2021-01-15 22:00:00 +0000
+date:   2021-01-17 16:00:00 +0000
 image:  "https://user-images.githubusercontent.com/1830246/104829709-31cb8380-586e-11eb-80c3-8863aeeaadc3.jpg"
+featured-image: "https://user-images.githubusercontent.com/1830246/104848763-421b4700-58de-11eb-9eed-7f8bd4dd8a28.png"
 tags:   Tech Troubleshoot IaC AWS SSL
 category: Technical
 author: paragnair
