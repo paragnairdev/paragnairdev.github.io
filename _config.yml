@@ -5,7 +5,7 @@ description: >-
   Hello, I am Parag Nair, a Full-Stack Cloud Engineer (AWS Certified), a Technologist, solving business problems with a Cloud First <i class="bi bi-cloud-check-fill"></i> approach.
   This is my blog where I share my experiences which I refer to as Snippets, but Hey! I am a Developer.
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+favicon: 'favicon.ico'
 baseurl: ""
 google_analytics: UA-186958206-1
 disqus: 
