@@ -15,9 +15,22 @@ Lets assume you have a booking platform and you have divided your service into m
 * Concert - `https://api.my-domain.com/concerts`
 * Accomodation - `https://api.my-domain.com/accommodation`
 
-Before Microservices, you would be hosting all this under a single application which has this one Visual Studio soliution file which has multiple projects within, each concentrating on one Bounded Context
+A traditional approach would be hosting all this under a single application which has this one Visual Studio soliution file with multiple projects within, each concentrating on a Bounded Context
 
 * `MyDomain.Service.Users` -  Everything related to User domain
 * `MyDomain.Service.Concerts` - Everything related to Concert domain
 * `MyDomain.Service.Accommodation` - Everything related to Accommodation domain 
-* `MyDomain.API` - MVC application with Controllers for Users, Conncerts & Accommodation which has reference to the services above
+* `MyDomain.API` - MVC application with Controllers for Users, Concerts & Accommodation which has reference to the services above.
+
+And you would deploy this single MVC application with some autoscaling rules. This is great, but you have separate teams, each working on one of the Bounded Context. Then you are left with multiple teams trying to work on the same source and a change to one Bounded Context means you have to re-deploy the whole thing. Life as a Developer/DevOps does not need to be this complex.
+
+On AWS, you could have a single Load Balancer which can then redirect requests to different services based on the the path of the request. The following illustration shows how to achieve that
+
+Let me walk you through what it does:
+* A request comes to the loadbalancer `https://api.my-domain.com/users`.
+* The loadbalancer has a HTTPS Listener Rule which says if the host header is `api.my-domain.com` and the path matches the pattern `/users/*`, the request should be forwarded to an ECS container which is running a service which deals with Users.
+* Likewise, a request `https://api.my-domain.com/accommodation` resolves to the rule which has host header `api.my-domain.com` and the path matching the pattern `/accommodation/*`.
+
+There are further benefits to this kind of architecture
+* You are not restricted to using a single technology for all your services. You can have the Users service built in .Net while Concerts service can be built using Node
+* Even if splitting your monolith into microservices is not possible, you can still use this architecture where you can deploy the monolith to multiple target groups each serving one Bounded Context. In fact, this is one of the mechanisms I used to troubleshoot a degrading Service which eventually was down to one endpoint which had non-performant code.
