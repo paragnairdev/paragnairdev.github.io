@@ -4,7 +4,7 @@ title:  Associate multiple SSL certificates with a single load balancer within a
 date:   2021-01-17 16:00:00 +0000
 image:  "https://user-images.githubusercontent.com/1830246/104829709-31cb8380-586e-11eb-80c3-8863aeeaadc3.jpg"
 featured-image: "https://user-images.githubusercontent.com/1830246/104848763-421b4700-58de-11eb-9eed-7f8bd4dd8a28.png"
-tags:   Tech Troubleshoot IaC AWS SSL
+tags:   Tech Troubleshoot InfrastructureAsCode AWS SSL
 category: Technical
 author: paragnair
 featured: true
@@ -13,7 +13,7 @@ hidden: true
 
 Did you know AWS supports associating multiple SSL certificates to a Single Load balancer listener? Here is how you can do that in a [CloudFormation template](https://aws.amazon.com/cloudformation/).
 
-Lets say you have 2 APIs `api.hotel-booking.com` and `api.car-booking.com`. You can have a single Application Load Balancer which can serve both these services. You do that with a [Load Balancer Listener](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-listeners.html). I will add a post later to explain how you can do that but for now lets concentrate on the task at hand, viz., associating multiple SSL certificates to a single Listener using a CloudFormation Template. The following diagram shows the rough architecture where you have a Load Balancer with a Listener which has 2 Rules each resolving to a target group.
+Lets say you have 2 APIs `api.hotel-booking.com` and `api.car-booking.com`. You can have a single Application Load Balancer which can serve both these services. You do that with a [Load Balancer Listener](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-listeners.html). I have explained in another post [how you can use a single load balancer to serve multiple services on the same domain]({{site.baseurl}}{% link _posts/2021-01-30-single-elb-multiple-services.md %}), but for now lets concentrate on the task at hand, viz., associating multiple SSL certificates to a single Listener using a CloudFormation Template. The following diagram shows the rough architecture where you have a Load Balancer with a Listener which has 2 Rules each resolving to a target group.
 
 ![Muliple Domains](https://user-images.githubusercontent.com/1830246/104829719-532c6f80-586e-11eb-83ad-368532734a0a.jpeg)
 
