@@ -8,7 +8,7 @@ logo: 'assets/images/logo.png'
 favicon: 'favicon.ico'
 baseurl: ""
 google_analytics: UA-186958206-1
-disqus: 
+disqus: paragnairdotnet
 mailchimp-list: 
 include: ["_pages"]
 permalink: /:title/
