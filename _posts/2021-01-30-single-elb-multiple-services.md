@@ -9,7 +9,7 @@ toc: true
 author: paragnair
 ---
 
-Using a microservices architecture, serve multiple services from a single Elastic Load balancer On AWS. Here is how you can have a single domain serve multiple services where each service is hosted as a separate instace of either containers, EC2 instances or AWS Lambda.
+Using a microservices architecture, serve multiple services from a single Application Load balancer On AWS. Here is how you can have a single domain serve multiple services where each service is hosted as a separate instace of either containers, EC2 instances or AWS Lambda.
 
 ## The scenario
 Lets assume you have a booking platform and you have divided your service into multiple [Bounded Contexts](https://martinfowler.com/bliki/BoundedContext.html). Assuming your domain is `https://api.my-domain.com`, following are your resources under the same:
@@ -30,7 +30,7 @@ You would deploy this single MVC application with some autoscaling rules. This i
 ## The alternative
 On AWS, you could have a single Load Balancer which can then redirect requests to different services based on the the path of the request. The following illustration shows how to achieve this:
 
-![Figure 1](https://user-images.githubusercontent.com/1830246/106366031-29c11880-6331-11eb-9b00-6f8b3bcda3b4.png)
+![Figure 1](https://user-images.githubusercontent.com/1830246/107089819-2927f680-67f7-11eb-9563-e5cb8d3c46b9.png)
 
 Let me walk you through what it does:
 * A request comes to the loadbalancer `https://api.my-domain.com/accommodation/`.
